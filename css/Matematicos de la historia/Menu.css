@@ -1,0 +1,48 @@
+﻿
+/*Estilos Generales*/
+nav{
+background-color:lightsalmon;
+
+}
+    nav ul{
+        list-style-type:bengali;
+            margin: 34px;
+            padding: 45px;
+    }
+
+    nav ul li{
+        display:inherit;
+        color: darkred;
+        text-decoration:dashed;
+        padding: 10px 25px;
+    }
+
+    /*Estilos del Submenu*/
+
+    nav ul li .submenu {
+        display:contents;
+            position:absolute;
+                background-color:azure;
+                padding:220;
+                width: 200px;
+                top:100%;
+                left:0;
+    }
+
+    nav ul li:hover.submenu{
+        display:block;
+    }
+    nav ul li.submenu li {
+        width:100%;
+    }
+
+    nav ul li .submenu li a {
+        padding: 10px 15px;
+        color:#0094ff;
+    }
+
+
+
+
+
+

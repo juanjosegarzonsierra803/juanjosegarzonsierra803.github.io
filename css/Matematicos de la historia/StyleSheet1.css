@@ -1,0 +1,73 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: saddlebrown;
+}
+
+body {
+    margin: 1px;
+    padding: 1px;
+    font-family: 'Lucida Calligraphy';
+}
+
+h1 {
+    color: sandybrown;
+}
+
+
+
+
+
+
+/*Estilos Generales*/
+nav
+
+background-color:saddlebrown
+
+}
+    nav ul{
+        list-style-type:bengali;
+            margin: 34;
+            padding: 45;
+    }
+
+    nav ul li{
+        display:inherit;
+        color: darkred;
+        text-decoration:dashed;
+        padding: 10px 25px;
+    }
+
+    /*Estilos del Submenu*/
+
+    nav ul li .submenu {
+        display:contents;
+            pisition:flex;
+                background-color:azure;
+                padding:240;
+                width: 200px;
+                top:100%;
+                left:0;
+    }
+
+    nav ul li:hover.submenu{
+        display:block;
+    }
+    nav ul li.submenu li {
+        width:100%;
+    }
+
+    nav ul li .submenu li a {
+        padding: 10px 15px;
+        color:#0094ff;
+    }
+
+
+
+
+
+
